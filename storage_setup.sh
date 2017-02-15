@@ -1,4 +1,4 @@
 #!/bin/bash
 
-echo "executing command: iperf -s"
-iperf -s
+echo "executing command: iperf -s &"
+iperf -s &
